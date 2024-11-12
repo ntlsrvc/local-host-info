@@ -8,8 +8,3 @@ Este é um aplicativo simples que exibe informações sobre o computador local, 
 - Exibe o **IP** do computador.
 - Exibe o **endereço MAC** da interface de rede ativa.
 - Exibe uma **barra de progresso** simulando o processo de "scaneamento" das informações do computador.
-
-## Tecnologias Utilizadas
-
-- **Go**: Para o backend, que coleta informações do sistema e serve a página.
-- **HTML/CSS/JavaScript**: Para o frontend, exibindo os dados de forma interativa.
