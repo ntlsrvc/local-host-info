@@ -1,0 +1,82 @@
+/* Define o estilo geral da página */
+body {
+    background-color: #0000AA; 
+    color: #FFFFFF; 
+    font-family: monospace; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estiliza o container principal */
+.rede {
+    background-color: #0000AA;
+    color: #FFFFFF;
+    width: 30%;
+    padding: 80px;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+/* Estiliza os textos das informações */
+h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Estiliza o botão */
+#botao {
+    background-color: #FFFFFF;
+    color: #0000AA;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#botao:hover {
+    background-color: #CCCCCC;
+}
+
+/* Adiciona um estilo para o texto "Scanning..." */
+#scan-animation {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Esconde elementos com a classe "hidden" */
+.hidden {
+    display: none;
+}
+
+/* Container da barra de progresso */
+#progress-container {
+    width: 80%;
+    height: 25px;
+    background-color: #333;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Barra de progresso */
+#progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #00FF00; 
+    transition: width 0.1s; 
+}
+
+/* Esconde elementos com a classe "hidden" */
+.hidden {
+    display: none;
+}

@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/main.css">
     <title>Local Host Info</title>
 </head>
-
 <body>
-    <div class="banner">
+    <div class="rede">
+        <div id="progress-container" class="hidden">
+            <div id="progress-bar"></div>
+        </div>
+        <div class="info hidden">
+            <h3>Hostname: {{ .Hostname }}</h3>
+            <h3>IP: {{ .IP }}</h3>
+            <h3>MacAddress: {{ .MacAddress }}</h3>
+        </div>
+        <button id="botao">Scanear Informações</button>
     </div>
-    <h3>Hostname: {{ .Hostname }}</h3>
-    <h3>IP: {{ .IP }}</h3>
-    <h3>MacAddress: {{ .MacAddress }}</h3>
-    <h3>Uptime: {{ .Uptime }}</h3>
-
-    <button id="botao">Scanear Informaçoes</button>
 </body>
 <script src="/assets/js/main.js"></script>
-
 </html>
